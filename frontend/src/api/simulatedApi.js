@@ -9,8 +9,8 @@ function detectBaseUrl() {
     // Codespaces preview: frontend host ends with `-3000.app.github.dev`
     // backend is typically exposed at same codespace but with `-8080`.
     const host = window.location.hostname;
-    if (host.includes('-3000')) {
-      const backendHost = host.replace('-3000', '-8080');
+    if (host.includes('-10000')) {
+      const backendHost = host.replace('-10000', '-8080');
       return `${window.location.protocol}//${backendHost}`;
     }
   }

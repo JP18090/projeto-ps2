@@ -13,7 +13,7 @@ export function resolveBackendWsUrl(path = '/ws') {
 
   if (typeof window !== 'undefined' && window.location.hostname.endsWith('.app.github.dev')) {
     const host = window.location.hostname;
-    const backendHost = host.includes('-3000') ? host.replace('-3000', '-8080') : host;
+    const backendHost = host.includes('-10000') ? host.replace('-10000', '-8080') : host;
     const proto = window.location.protocol === 'https:' ? 'wss' : 'ws';
     return `${proto}://${backendHost}${path}`;
   }
