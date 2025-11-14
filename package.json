@@ -1,0 +1,15 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "Este projeto tem como objetivo desenvolver um Portal de Estágios que conecta estudantes, empresas e administradores em uma plataforma web moderna e integrada. A aplicação é composta por um backend RESTful em Java (Spring Boot) e uma SPA (Single Page Application) desenvolvida com framework JavaScript (React).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jspdf": "^3.0.3"
+  }
+}

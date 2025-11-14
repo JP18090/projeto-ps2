@@ -1,0 +1,123 @@
+.vaga-card {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.vaga-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+  border-color: #007bff;
+}
+
+.vaga-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.vaga-card-header h3 {
+  margin: 0;
+  color: #333;
+  font-size: 1.3em;
+  flex: 1;
+}
+
+.modalidade-badge {
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.85em;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.modalidade-badge.remoto {
+  background-color: #e3f2fd;
+  color: #1976d2;
+}
+
+.modalidade-badge.presencial {
+  background-color: #f3e5f5;
+  color: #7b1fa2;
+}
+
+.modalidade-badge.híbrido,
+.modalidade-badge.hibrido {
+  background-color: #fff3e0;
+  color: #f57c00;
+}
+
+.vaga-card-body {
+  margin-bottom: 15px;
+}
+
+.descricao {
+  color: #666;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.vaga-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.info-item {
+  font-size: 0.9em;
+  color: #555;
+}
+
+.info-item strong {
+  color: #333;
+  margin-right: 5px;
+}
+
+.requisitos {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.requisitos strong {
+  color: #333;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.vaga-card-footer {
+  padding-top: 15px;
+  border-top: 1px solid #f0f0f0;
+}
+
+.btn-candidatar {
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-candidatar:hover {
+  background-color: #0056b3;
+}
+
+.vaga-card:hover .btn-candidatar {
+  background-color: #0056b3;
+}

@@ -1,0 +1,61 @@
+/* CSS simples para o Header (Sem Tailwind) */
+.header-principal {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+  padding: 0.5rem 1rem;
+}
+
+.navbar {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #0056b3;
+  text-decoration: none;
+}
+
+.menu-links {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.menu-links a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+}
+
+.menu-links a:hover {
+  color: #0056b3;
+}
+
+.menu-button {
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  padding: 8px 12px;
+}
+.menu-button:hover {
+  background-color: #0056b3;
+  color: white;
+}
+
+.menu-button-logout {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.menu-button-logout:hover {
+  background-color: #c82333;
+}

@@ -1,0 +1,107 @@
+.lista-vagas-publicas {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header-section {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.header-section h2 {
+  color: #333;
+  margin-bottom: 10px;
+  font-size: 2em;
+}
+
+.subtitle {
+  color: #666;
+  font-size: 1.1em;
+}
+
+.filtros-section {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.filtro-group {
+  flex: 1;
+  min-width: 250px;
+}
+
+.filtro-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #333;
+}
+
+.filtro-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1em;
+  background-color: white;
+  cursor: pointer;
+}
+
+.filtro-group select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
+}
+
+.vagas-container {
+  margin-bottom: 30px;
+}
+
+.loading-message,
+.error-message,
+.no-vagas-message {
+  text-align: center;
+  padding: 40px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.error-message {
+  color: #d32f2f;
+}
+
+.no-vagas-message {
+  color: #666;
+}
+
+.btn-limpar-filtros {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-limpar-filtros:hover {
+  background-color: #0056b3;
+}
+
+.info-footer {
+  text-align: center;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  color: #666;
+  font-style: italic;
+}

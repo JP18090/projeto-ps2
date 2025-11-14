@@ -1,0 +1,47 @@
+.vaga-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  margin-bottom: 16px;
+}
+
+.vaga-titulo {
+  margin-top: 0;
+  margin-bottom: 4px;
+  color: #0056b3;
+}
+
+.vaga-empresa {
+  margin: 0 0 12px 0;
+  font-weight: bold;
+  color: #555;
+}
+
+.vaga-detalhes {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.vaga-tag {
+  background-color: #e9ecef;
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 0.85rem;
+}
+
+.vaga-botao {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.vaga-botao:hover {
+  background-color: #0056b3;
+}
